@@ -1,35 +1,207 @@
 @media screen and (min-width: 768px) {
   header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    padding: 0;
+    max-width: 1200px;
   }
 
   #logo {
-    margin-right: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -5rem;
+    transform: translateX(16rem);
+    font-size: 2.2rem;
   }
 
   nav {
+    display: none;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  nav.active {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+    position: fixed;
     display: flex;
-    align-items: center;
+    margin-top: 16px;
+    font-size: 50px;
   }
 
   nav ul {
+    position: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: -16.5rem;
+    background-color: rgb(244, 243, 243);
+    padding: 10px 20px 0px 0px;
     list-style: none;
+    z-index: 4;
   }
 
   nav li {
-    margin-right: 1rem;
+    margin-right: -1rem;
     font-size: 1.2rem;
-    white-space: nowrap;
-    text-align: center; /* Centralizar o texto horizontalmente */
   }
 
   nav a {
-    text-decoration: none;
+    font-weight: bolder;
     color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+  }
+
+  .home {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  #modelos {
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    border-radius: 10px;
+    width: 25rem;
+    margin-left: 5rem;
+    height: auto;
+  }
+
+  #pote {
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    border-radius: 10px;
+    width: 13rem;
+    height: 10rem;
+    margin-top: 145px;
+    position: absolute;
+    left: calc((100% - -23rem) / 2);
+  }
+
+  #txt-home {
+    font-size: 4vw;
+    margin-top: 120px;
+    margin-left: 3rem;
+    text-align: center;
+  }
+  #txt-home h3,
+  h4 {
+    font-weight: 500;
+  }
+
+  #container-kits {
+    max-width: 1024px;
+    margin-left: 20rem;
+  }
+
+  .kits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .kits div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .kits img {
+    width: 20rem; /* Preenche a largura da coluna */
+    height: 15rem;
+    background-color: rgb(244, 243, 243);
+    object-fit: contain;
+  }
+
+  #bugado {
+    margin-top: 120px;
+  }
+
+  .kits p {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+
+  div#h2-kits {
+    display: none;
+  }
+
+  .novidade1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    transform: translateX(12rem);
+    align-items: center;
+  }
+
+  #skincare-novidade1 {
+    width: 30rem;
+    margin-left: 10.5rem;
+  }
+
+  #modelo-novidade1 {
+    display: flex;
+    margin-left: -50rem;
+    margin-top: -2;
+    height: 20rem;
+    transform: translateX(8rem);
+  }
+
+  #btn-novidade1 {
+    text-align: center;
+    transform: translateX(-14rem);
+    margin-top: 250px;
+  }
+
+  #btn-novidade1 a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    display: inline-block;
+    background-color: rgb(244, 243, 243);
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .novidade2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #creme-novidade2 {
+    width: 30rem;
+    margin-left: 9.85rem;
+  }
+
+  #modelo-novidade2 {
+    display: flex;
+  }
+
+  #btn-novidade2 {
+    text-align: center;
+    transform: translateX(-19rem);
+    margin-top: 10rem;
+  }
+
+  #btn-novidade2 a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    display: inline-block;
+    background-color: rgb(244, 243, 243);
+    border-radius: 20px;
+    padding: 10px;
   }
 }
