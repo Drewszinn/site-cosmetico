@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #logo {
+    margin-right: auto;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  nav li {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    text-align: center; /* Centralizar o texto horizontalmente */
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+}
