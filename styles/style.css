@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-width: 450px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+#logo {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+nav.active {
+  display: block;
+}
+
+.material-symbols-outlined {
+  display: block;
+  margin-top: -40px;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column; /* Alterado para exibir os links em coluna */
+  margin-top: 10px;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+nav a {
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem; /* Adicionado espaçamento entre os links */
+  transition: background-color 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.kits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(244, 243, 243);
+  border-radius: 50px 0px 50px;
+}
+
+.kits div {
+  display: none;
+}
+
+.kits img {
+  max-width: 20rem;
+  margin-top: 20px;
+}
+
+.kits div:first-child {
+  display: block;
+}
+
+#h2-kits {
+  display: block;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.635);
+  transform: translateY(-7rem);
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.novidade1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skincare-novidade1 {
+  width: 30rem;
+  margin-left: 10.5rem;
+}
+
+#modelo-novidade1 {
+  display: none;
+}
+
+#btn-novidade1 {
+  text-align: center;
+  transform: translateX(-14rem);
+  margin-top: 250px;
+}
+
+#btn-novidade1 a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  display: inline-block;
+  background-color: rgb(244, 243, 243);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.novidade2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#creme-novidade2 {
+  width: 30rem;
+  margin-left: 9.85rem;
+}
+
+#modelo-novidade2 {
+  display: none;
+}
+
+#btn-novidade2 {
+  text-align: center;
+  transform: translateX(-19rem);
+  margin-top: 10rem;
+}
+
+#btn-novidade2 a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  display: inline-block;
+  background-color: rgb(244, 243, 243);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.novidade3 {
+  margin: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kitmasculino-novidade3 {
+  width: 30rem;
+  margin-left: 11.8rem;
+}
+
+#modelo-novidade3 {
+  display: none;
+}
+
+#btn-novidade3 {
+  text-align: center;
+  transform: translateX(-20rem);
+  margin-top: 12rem;
+}
+
+#btn-novidade3 a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  display: inline-block;
+  background-color: rgb(244, 243, 243);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.produtos {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 1.2rem;
+}
+
+.produtos img {
+  max-width: 20rem;
+  height: 18rem;
+  margin-top: 30px;
+  background-color: rgb(244, 243, 243);
+  border-radius: 10px 10px 0px 0px;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  border: solid 1px;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1.5rem;
+  z-index: 1;
+  transform: translateY(-2rem);
+}
