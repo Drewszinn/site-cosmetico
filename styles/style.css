@@ -217,3 +217,42 @@ p {
   z-index: 1;
   transform: translateY(-2rem);
 }
+
+.sobre {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sobre h2 {
+  transform: translateY(-5rem);
+  z-index: 2;
+  font-size: 2rem;
+}
+
+#juntas {
+  display: none;
+}
+
+footer {
+  background-color: rgb(244, 243, 243);
+  padding: 20px;
+}
+
+.contato {
+  text-align: center;
+}
+
+.contato a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.contato h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
